@@ -16,6 +16,7 @@ nav {
     border: blueviolet 5px dashed;
     margin: 0 0 0 15px;
     padding-top: 20px;
+    
 }
 
 nav li {
@@ -26,20 +27,22 @@ nav li {
 nav a {
     color: yellow;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
+    text-decoration: none;
 
 }
 
 h1 {
     color: #4a94e2;
     text-align: center;
+    font-size: 35px;
 }
 h2 {
     color: #301ac4;
 }
 p {
-    color:  #2db7bc;
+    color:  #2f74c8;
 
 }
 
