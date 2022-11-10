@@ -1,9 +1,21 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background-color: #cecec6;
 }
 
 header {
     background-color: #4a94e2;
+    border: yellowgreen 10px solid;
+}
+
+nav {
+    border: blueviolet 5px dashed;
+    margin: 0 0 0 15px;
+    padding-top: 20px;
 }
 
 nav li {
@@ -30,6 +42,12 @@ p {
     color:  #2db7bc;
 
 }
+
+h1, h2, h3, p, ul, il {
+    padding: 5px;
+    margin: 5px;
+}
+
 #imagem-principal {
     width: 10%;
     margin-left: 80%;
