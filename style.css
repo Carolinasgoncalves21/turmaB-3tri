@@ -37,6 +37,10 @@ nav a:hover {
     color:brown;
 }
 
+nav a:active {
+    color: red;
+}
+
 h1 {
     color: #4a94e2;
     text-align: center;
