@@ -42,7 +42,7 @@ nav a:visited {
 }
 
 li::marker {
-    content: "\2797";
+    content: "\1F30D";
     color:aqua;
     font-size: 20px;
 }
