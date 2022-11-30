@@ -37,8 +37,8 @@ nav a:hover {
     color:brown;
 }
 
-nav a:active {
-    color: green;
+nav a:visited {
+    color: navy;
 }
 
 h1 {
