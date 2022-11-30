@@ -47,6 +47,12 @@ li::marker {
     font-size: 20px;
 }
 
+li:before {
+    content: "☘";
+    font-size: 30px;
+}
+
+
 h1 {
     color: #4a94e2;
     text-align: center;
