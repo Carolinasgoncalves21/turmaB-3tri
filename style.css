@@ -47,10 +47,16 @@ li::marker {
     font-size: 20px;
 }
 
-li:before {
+.item1 li:before {
     content: "☘";
     font-size: 30px;
+
 }
+
+.item2 li:after {
+    content: "🌳";
+}
+
 
 
 h1 {
