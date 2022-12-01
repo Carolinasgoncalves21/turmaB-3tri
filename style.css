@@ -101,22 +101,35 @@ footer {
     text-align: center;
     background-image: url("https://static.vecteezy.com/system/resources/previews/002/092/160/original/elegant-gold-stars-background-free-vector.jpg");
     padding: 40px 0;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.3;
     
     
 }
 
 footer url {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 .rodape {
-  width: 200px;
+  width: 100px;
 }
 
 .copyright {
     color: blue;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+footer:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
 }
