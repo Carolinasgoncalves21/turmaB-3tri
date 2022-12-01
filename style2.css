@@ -1,7 +1,46 @@
 body {
-    height: 300vh;
-     }
+  background-color: #cecec6;
+  padding: 0 0px;
+  height: 300vh;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+
+header {
+  position: sticky;
+  background: #4a94e2;
+  padding: 20px 0;
+  top: 0;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px,
+}
+
+nav a {
+  text-transform: uppercase;
+  color:#cbcbcb;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: navy;
   
+}
   .exemplo {
     margin-top: 500px;
     width: 200px;
