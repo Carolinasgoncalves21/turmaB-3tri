@@ -67,6 +67,7 @@ nav a:visited {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  z-index: -1
   
 }
 
@@ -74,6 +75,7 @@ nav a:visited {
   margin-top: 100px;
   background-color: purple;
   position: absolute;
+  z-index: -1
 }
 
 .exemplointerno {
@@ -84,4 +86,5 @@ nav a:visited {
   height: 100px;
   line-height: 100px;
   background-color: navy;
+  z-index: -1
 }

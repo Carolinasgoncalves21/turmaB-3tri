@@ -88,3 +88,9 @@ ul, li {
     margin-right: 20%;
 
 }
+
+footer {
+    background-image: url(coding-image.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
